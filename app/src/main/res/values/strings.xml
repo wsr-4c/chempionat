@@ -9,4 +9,9 @@
     <string name="onboard2_big">Flexible Payment</string>
     <string name="onboard3_small">Track your packages/items from the comfort of your home till final destination</string>
     <string name="onboard3_big">Real-time Tracking</string>
+    <string name="FIO">Ivanov Ivan</string>
+    <string name="Phone">+7(999)999-99-99</string>
+    <string name="email">***********@mail.com</string>
+    <string name="password">**********</string>
+    <string name="confirm">**********</string>
 </resources>

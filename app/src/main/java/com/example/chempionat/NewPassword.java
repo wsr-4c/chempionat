@@ -10,22 +10,22 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Holder extends AppCompatActivity {
+public class NewPassword extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_holder);
+        setContentView(R.layout.activity_new_password);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
     }
-    //Переход на страницу авторизации. Денисова(участник 4). 26.03.24. 2 сессия
-public void log(View v){
-        Intent intent = new Intent(this, LogIn.class);
+    //Переход на главную страницу. Денисова(участник 4). 26.03.24. 2 сессия
+    public void home(View v){
+        Intent intent = new Intent(this, Home.class);
         startActivity(intent);
-}
+    }
 }
