@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Чёрный-->
+    <color name="black">#FF000000</color>
+    <!--Белый-->
+    <color name="white">#FFFFFFFF</color>
+    <!--Синий-->
+    <color name="blue">#0560FA</color>
+    <!--Для малого текста после заголовка-->
+    <color name="text">#3A3A3A</color>
+    <!--Серый-->
+    <color name="gray">#A7A7A7</color>
+</resources>
