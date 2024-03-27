@@ -388,6 +388,7 @@
         android:layout_marginTop="46dp"
         android:layout_marginEnd="24dp"
         android:backgroundTint="@color/blue"
+        android:onClick="make"
         android:text="Make payment"
         app:cornerRadius="4dp"
         app:layout_constraintEnd_toEndOf="parent"

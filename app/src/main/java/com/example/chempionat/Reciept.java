@@ -28,4 +28,9 @@ public class Reciept extends AppCompatActivity {
         Intent intent = new Intent(this, SendApackage.class);
         startActivity(intent);
     }
+    //Переход назад. Денисова(участник 4). 27.06.24. 3 сессия
+    public void make(View v){
+        Intent intent = new Intent(this, Transaction.class);
+        startActivity(intent);
+    }
 }
