@@ -1,6 +1,8 @@
 package com.example.chempionat;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,15 @@ public class SendApackage extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    //Переход назад. Денисова(участник 4). 27.06.24. 3 сессия
+    public void back(View v){
+        Intent intent = new Intent(this, Profile.class);
+        startActivity(intent);
+    }
+    //Переход на страницу оформления заказа. Денисова(участник 4). 27.06.24. 3 сессия
+    public void receipt(View v){
+        Intent intent = new Intent(this, Reciept.class);
+        startActivity(intent);
     }
 }

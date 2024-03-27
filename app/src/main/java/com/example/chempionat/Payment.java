@@ -1,6 +1,8 @@
 package com.example.chempionat;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,9 @@ public class Payment extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    public void back(View v){
+        Intent intent = new Intent(this, Profile.class);
+        startActivity(intent);
     }
 }

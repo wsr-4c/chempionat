@@ -1,2 +1,4 @@
-package com.example.chempionat;public class Hendler {
+package com.example.chempionat;
+
+public class Hendler {
 }
